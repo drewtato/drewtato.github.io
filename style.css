@@ -1,0 +1,44 @@
+body {
+  margin: auto;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;  
+  background-color: #ccccd9;
+  color: #626567
+}
+
+a {
+  text-decoration: none;
+  color: #626567
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.name {
+  padding: 50px;
+  background-color: #ccccd9;
+  font-family: "Open Sans Light";
+  font-size: 5em;
+  color: #7a7e81
+}
+
+.info {
+  padding: 20px;
+  font-size: 1.4em;
+    
+}
+
+.spacer {
+  padding-top: 10px;
+  margin: auto;
+  width: 90%;
+  max-width: 50em;
+  background-color: #888;
+  border-radius: 5px;
+}
+
+.footer {
+  padding: 20px;
+  font-size: .75rem;
+}
