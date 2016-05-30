@@ -1,14 +1,14 @@
 body {
   margin: auto;
   font-family: "Open Sans", sans-serif;
+  background-color: #23242c;
   text-align: center;  
-  background-color: #ccccd9;
-  color: #626567
+  color: #737b81
 }
 
 a {
   text-decoration: none;
-  color: #626567
+  color: #737b81
 }
 
 a:hover {
@@ -17,10 +17,8 @@ a:hover {
 
 .name {
   padding: 50px;
-  background-color: #ccccd9;
   font-family: "Open Sans Light";
   font-size: 5em;
-  color: #7a7e81
 }
 
 .info {
@@ -34,7 +32,7 @@ a:hover {
   margin: auto;
   width: 90%;
   max-width: 50em;
-  background-color: #888;
+  background-color: #737b81;
   border-radius: 5px;
 }
 
