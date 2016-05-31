@@ -1,10 +1,10 @@
 html {
-  margin: 0px;
   min-height: 100%;
   background-color: #464753;
-  background-image: url(image/DSCN8328dark.JPG);
+  background-image: url(image/background.jpg);
   background-repeat: no-repeat;
-  background-size: cover
+  background-size: cover;
+  overflow: hidden;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
   font-size: 12px;
   text-align: center;  
   color: rgb(208, 208, 218);
-  color: rgba(255,255,255,0.65);
+  color: rgba(255,255,255,0.75);
   margin: 0px;
   min-height: 100%;
 }
@@ -21,7 +21,7 @@ body {
 a {
   text-decoration: none;
   color: rgb(208, 208, 218);
-  color: rgba(255,255,255,0.65)
+  color: rgba(255,255,255,0.75)
 }
 
 a:hover {
@@ -46,7 +46,7 @@ a:hover {
   width: 90%;
   max-width: 50em;
   background-color: rgb(208, 208, 218);
-  background-color: rgba(255,255,255,0.65);
+  background-color: rgba(255,255,255,0.75);
   border-radius: .2em;
 }
 
