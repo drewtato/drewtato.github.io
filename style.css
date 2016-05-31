@@ -1,7 +1,6 @@
 body {
   margin: auto;
   font-family: "Open Sans", sans-serif;
-  font-weight: 400;
   background-color: #434553;
   text-align: center;  
   color: #c5c5d0;
@@ -18,8 +17,7 @@ a:hover {
 
 .name {
   padding: 4rem;
-  font-family: "Open Sans";
-  font-weight: 300;
+  font-family: "Open Sans Light";
   font-size: 5rem;
 }
 
@@ -40,7 +38,7 @@ a:hover {
 
 .footer {
   margin: 5px;
-  position: fixed;
+  position: absolute;
   right:0px;
   bottom: 0px;
   font-size: .8rem;
