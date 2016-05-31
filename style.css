@@ -4,6 +4,8 @@ body {
   font-weight: 400;
   font-size: 12px;
   background-color: #464753;
+  background-image: url(image/DSCN8328dark.JPG);
+  background-size: cover;
   text-align: center;  
   color: #b7bdc3
 }
