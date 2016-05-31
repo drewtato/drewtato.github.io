@@ -1,6 +1,7 @@
 body {
   margin: auto;
   font-family: "Open Sans", sans-serif;
+  font-size: 12px;
   background-color: #23242c;
   text-align: center;  
   color: #737b81
@@ -16,27 +17,29 @@ a:hover {
 }
 
 .name {
-  padding: 50px;
+  padding: .8em;
   font-family: "Open Sans Light";
-  font-size: 5em;
+  font-size: 6em;
 }
 
 .info {
-  padding: 20px;
-  font-size: 1.4em;
-    
+  padding: 1em;
+  font-size: 1.5rem;
 }
 
 .spacer {
-  padding-top: 10px;
+  padding-top: .4em;
   margin: auto;
   width: 90%;
   max-width: 50em;
   background-color: #737b81;
-  border-radius: 5px;
+  border-radius: .2em;
 }
 
 .footer {
-  padding: 20px;
-  font-size: .75rem;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  margin: 5px;
+  font-size: 14px;
 }
