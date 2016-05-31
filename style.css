@@ -1,18 +1,27 @@
+html {
+  margin: 0px;
+  min-height: 100%;
+  background-color: #464753;
+  background-image: url(image/DSCN8328dark.JPG);
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
 body {
-  margin: auto;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 12px;
-  background-color: #464753;
-  background-image: url(image/DSCN8328dark.JPG);
-  background-size: cover;
   text-align: center;  
-  color: #b7bdc3
+  color: rgb(208, 208, 218);
+  color: rgba(255,255,255,0.65);
+  margin: 0px;
+  min-height: 100%;
 }
 
 a {
   text-decoration: none;
-  color: #b7bdc3
+  color: rgb(208, 208, 218);
+  color: rgba(255,255,255,0.65)
 }
 
 a:hover {
@@ -36,12 +45,13 @@ a:hover {
   margin: auto;
   width: 90%;
   max-width: 50em;
-  background-color: #b7bdc3;
+  background-color: rgb(208, 208, 218);
+  background-color: rgba(255,255,255,0.65);
   border-radius: .2em;
 }
 
 .footer {
-  position: fixed;
+  position: absolute;
   bottom: 0px;
   right: 0px;
   margin: 5px;
