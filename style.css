@@ -1,14 +1,14 @@
 body {
   margin: auto;
   font-family: "Open Sans", sans-serif;
-  background-color: #434553;
+  background-color: #23242c;
   text-align: center;  
-  color: #c5c5d0;
+  color: #737b81
 }
 
 a {
   text-decoration: none;
-  color: #c5c5d0;
+  color: #737b81
 }
 
 a:hover {
@@ -16,30 +16,27 @@ a:hover {
 }
 
 .name {
-  padding: 4rem;
+  padding: 50px;
   font-family: "Open Sans Light";
-  font-size: 5rem;
+  font-size: 5em;
 }
 
 .info {
-  padding: 3rem;
-  font-size: 1.4rem;
+  padding: 20px;
+  font-size: 1.4em;
     
 }
 
 .spacer {
-  padding-top: .4rem;
+  padding-top: 10px;
   margin: auto;
   width: 90%;
-  max-width: 50rem;
-  background-color: #c5c5d0;
-  border-radius: .2rem;
+  max-width: 50em;
+  background-color: #737b81;
+  border-radius: 5px;
 }
 
 .footer {
-  margin: 5px;
-  position: absolute;
-  right:0px;
-  bottom: 0px;
-  font-size: .8rem;
+  padding: 20px;
+  font-size: .75rem;
 }
