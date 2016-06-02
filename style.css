@@ -4,7 +4,6 @@ html {
   background-image: url(image/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  overflow: hidden;
 }
 
 body {
