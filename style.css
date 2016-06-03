@@ -50,9 +50,8 @@ a:hover {
 }
 
 .footer {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
+  position: relative;
+  text-align: right;
   margin: 5px;
   font-size: 14px;
 }
