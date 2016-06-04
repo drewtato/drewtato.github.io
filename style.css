@@ -9,18 +9,18 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 0.75em;
   text-align: center;  
   color: rgb(208, 208, 218);
   color: rgba(255,255,255,0.75);
-  margin: 0px;
+  margin: 0;
   min-height: 100%;
 }
 
 a {
   text-decoration: none;
   color: rgb(208, 208, 218);
-  color: rgba(255,255,255,0.75)
+  color: rgba(255,255,255,0.75);
 }
 
 a:hover {
@@ -28,30 +28,38 @@ a:hover {
 }
 
 .name {
-  padding: .8em;
+  padding: 4rem;
   font-family: "Open Sans";
   font-weight: 300;
   font-size: 6em;
 }
 
 .info {
-  padding: 1em;
+  padding: 1rem;
   font-size: 1.5rem;
 }
 
 .spacer {
-  padding-top: .4em;
+  padding-top: .4rem;
   margin: auto;
   width: 90%;
   max-width: 50em;
   background-color: rgb(208, 208, 218);
   background-color: rgba(255,255,255,0.75);
-  border-radius: .2em;
+  border-radius: .2rem;
 }
 
 .footer {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  margin: 5px;
+  font-size: 10px;
+}
+
+@media screen and (max-height: 428px) {
+  .footer {
   position: relative;
   text-align: right;
-  margin: 5px;
-  font-size: 14px;
+  }
 }
