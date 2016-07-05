@@ -5,61 +5,62 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 body {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  font-size: 0.75em;
-  text-align: center;  
+  font-family: "Comfortaa", sans-serif;
+  font-size: 75%;
+  letter-spacing: .1em;
+  text-align: center;
   color: rgb(208, 208, 218);
-  color: rgba(255,255,255,0.75);
+  color: rgba(255, 255, 255, 0.75);
   margin: 0;
   min-height: 100%;
 }
-
 a {
   text-decoration: none;
   color: rgb(208, 208, 218);
-  color: rgba(255,255,255,0.75);
+  color: rgba(255, 255, 255, 0.75);
 }
-
 a:hover {
   text-decoration: underline;
 }
-
 .name {
-  padding: 4rem;
-  font-family: "Open Sans";
-  font-weight: 300;
+  padding: 4rem 1rem 2rem 1rem;
   font-size: 6em;
 }
-
 .info {
-  padding: 1rem;
-  font-size: 1.5rem;
+  padding: 2rem;
+  font-size: 1.5em;
 }
-
 .spacer {
   padding-top: .4rem;
   margin: auto;
   width: 90%;
   max-width: 50em;
   background-color: rgb(208, 208, 218);
-  background-color: rgba(255,255,255,0.75);
+  background-color: rgba(255, 255, 255, 0.75);
   border-radius: .2rem;
 }
-
 .footer {
   position: absolute;
   bottom: 0px;
   right: 0px;
   margin: 5px;
   font-size: 10px;
+  color: rgba(255, 255, 255, 0.50);
 }
-
 @media screen and (max-height: 428px) {
   .footer {
-  position: relative;
-  text-align: right;
+    position: relative;
+    text-align: right;
+  }
+}
+@media screen and (min-width: 1100px) and (min-height: 428px) {
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-size: 1.2rem
   }
 }
