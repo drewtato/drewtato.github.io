@@ -24,21 +24,21 @@ a:hover {
   text-decoration: underline;
 }
 .name {
-  padding: 4rem 1rem 2rem 1rem;
+  padding: .6em .2em .6em .2em;
   font-size: 6em;
 }
 .info {
-  padding: 2rem;
+  padding: 1em 0em 3em 0em;
   font-size: 1.5em;
 }
 .spacer {
-  padding-top: .4rem;
+  padding-top: .5em;
   margin: auto;
   width: 90%;
   max-width: 50em;
   background-color: rgb(208, 208, 218);
   background-color: rgba(255, 255, 255, 0.75);
-  border-radius: .2rem;
+  border-radius: .25em;
 }
 .footer {
   position: absolute;
@@ -48,13 +48,13 @@ a:hover {
   font-size: 10px;
   color: rgba(255, 255, 255, 0.50);
 }
-@media screen and (max-height: 428px) {
+@media screen and (max-height: 370px) {
   .footer {
     position: relative;
     text-align: right;
   }
 }
-@media screen and (min-width: 1100px) and (min-height: 428px) {
+@media screen and (min-width: 1100px) and (min-height: 566px) {
   .container {
     position: absolute;
     top: 50%;
