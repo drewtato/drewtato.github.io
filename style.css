@@ -1,6 +1,6 @@
 html {
   min-height: 100%;
-  background: #464753 url(image/background2.jpg) right bottom/cover no-repeat;
+  background: #464753 url(image/background.jpg) right bottom/cover no-repeat;
 }
 body {
   font-family: "Comfortaa", sans-serif;
@@ -29,10 +29,12 @@ a:hover {
   font-size: 1.5em;
 }
 .igLogo {
-  height: 0.9em;
-  width: 0.9em;
-  margin: 0 0.2em;
+  height: 1.2em;
+  width: 1.2em;
+  transform: translateY(0.15em);
+  padding: 0 0.28em;
   opacity: 0.75;
+  object-fit: scale-down;
 }
 .spacer {
   padding-top: .5em;
