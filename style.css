@@ -24,7 +24,7 @@ a:hover {
   text-decoration: underline;
 }
 
-#bg {
+.bg {
   object-fit: cover;
   object-position: right;
   height: 100%;
@@ -33,10 +33,6 @@ a:hover {
   top: 0px;
   left: 0px;
   z-index: -1;
-}
-
-.load {
-  display: none;
 }
 
 .name {
