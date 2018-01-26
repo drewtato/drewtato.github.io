@@ -26,7 +26,8 @@ a:hover {
 
 .bg {
   object-fit: cover;
-  height:100%;
+  object-position: right;
+  height: 100%;
   width: 100%;
   position: absolute;
   top: 0px;
