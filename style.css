@@ -90,3 +90,8 @@ a:hover {
   }
 } */
 
+body {
+  margin: 0;
+  background: right bottom / cover no-repeat #101015 url(image/background.jpg);
+  min-height: 100vh;
+}
