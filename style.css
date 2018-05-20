@@ -90,26 +90,17 @@ a:hover {
   }
 } */
 
-
 :root {
-  min-height: 100%;
-  /* This one makes the background take the whole space */
-  display: flex;
-  /* This one makes the body centered */
-  justify-content: center;
-  /*  It feels so wrong :( but if you do it another way, hiding the address bar 
-      on mobile causes issues */
-  
   --text-color: rgba(255, 255, 255, 0.75);
 }
 
 body {
   margin: 0;
-  width: 100%;
+  min-height: 100vh;
   background: right bottom / cover no-repeat #101015 url(image/background.jpg);
   color: var(--text-color);
   font-family: "Comfortaa", sans-serif;
-  font-size: 6vw;
+  font-size: 6vmin;
   text-align: center;
   letter-spacing: 0.05em;
   display: flex;
@@ -145,6 +136,7 @@ body>* {
 
 .spacer {
   width: 90%;
+  max-width: 30em;
   height: 0.25em;
   background-color: var(--text-color);
   border-radius: 0.125em;
@@ -156,4 +148,10 @@ body>* {
   width: 1.2em;
   transform: translateY(0.15em);
   padding: 0 0.28em;
+}
+
+@media (min-width: 900px) {
+  body {
+    font-size: 4vmin;
+  }
 }
