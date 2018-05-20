@@ -144,10 +144,10 @@ body>* {
 }
 
 .igLogo {
-  height: 1.2em;
-  width: 1.2em;
-  transform: translateY(0.15em);
-  padding: 0 0.28em;
+  height: 1em;
+  width: 1em;
+  transform: translateY(0.1em);
+  margin: 0 0.18em;
 }
 
 @media (min-width: 900px) {
