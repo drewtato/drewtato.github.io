@@ -90,29 +90,70 @@ a:hover {
   }
 } */
 
+
+:root {
+  min-height: 100%;
+  /* This one makes the background take the whole space */
+  display: flex;
+  /* This one makes the body centered */
+  justify-content: center;
+  /*  It feels so wrong :( but if you do it another way, hiding the address bar 
+      on mobile causes issues */
+  
+  --text-color: rgba(255, 255, 255, 0.75);
+}
+
 body {
   margin: 0;
+  width: 100%;
   background: right bottom / cover no-repeat #101015 url(image/background.jpg);
-  min-height: 100vh;
-  color: rgb(208, 208, 218);
-  color: rgba(255, 255, 255, 0.75);
+  color: var(--text-color);
   font-family: "Comfortaa", sans-serif;
-  font-size: 75%;
-  letter-spacing: .1em;
+  font-size: 6vw;
+  text-align: center;
+  letter-spacing: 0.05em;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
-a, a:visited {
-  color: inherit;
+a,
+a:visited {
+  color: #fff;
   text-decoration: none;
+  opacity: 0.75;
 }
 
 a:active {
   color: #fff;
+  opacity: 1;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+body>* {
+  margin: 0.4em 0;
+}
+
+.name {
+  font-size: 3.5em;
+  margin: 0.1em 0;
+}
+
+.spacer {
+  width: 90%;
+  height: 0.25em;
+  background-color: var(--text-color);
+  border-radius: 0.125em;
+  margin: 1.2em 0;
+}
+
+.igLogo {
+  height: 1.2em;
+  width: 1.2em;
+  transform: translateY(0.15em);
+  padding: 0 0.28em;
 }
