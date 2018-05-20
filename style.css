@@ -157,7 +157,7 @@ body>a:last-of-type {
   margin: 0 0.18em;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   body {
     font-size: 4vmin;
   }
