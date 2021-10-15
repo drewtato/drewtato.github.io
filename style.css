@@ -18,6 +18,8 @@ a,
 a:visited {
     color: #fff;
     opacity: 0.75;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 a:active {
