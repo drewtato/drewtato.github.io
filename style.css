@@ -1,7 +1,7 @@
 body {
     margin: 0;
     min-height: 100vh;
-    background: right bottom / cover no-repeat #101015 url(image/background.jpg);
+    background: center top / cover no-repeat #101015 url(image/background.jpg);
     color: rgba(255, 255, 255, 0.75);
     font-family: "Comfortaa", sans-serif;
     font-size: 1.5em;
@@ -28,7 +28,7 @@ a:active {
 }
 
 a:hover {
-    text-decoration: underline;
+    opacity: 0.9
 }
 
 body>* {
